@@ -18,11 +18,11 @@
       <legend>Sort By Date:</legend>
       <div class="custom-control custom-radio custom-control-inline">
         <input type="radio" id="sortDeseendingTrue" name="sortDeseending" class="custom-control-input" checked="checked" [value]="true" [(ngModel)]="settingsService.sortDescending">
-        <label class="custom-control-label" for="sortDeseendingTrue">Descending</label>
+        <label class="custom-control-label" for="sortDeseendingTrue">Oldest First</label>
       </div>
       <div class="custom-control custom-radio custom-control-inline">
         <input type="radio" id="sortDeseendingFalse" name="sortDeseending" class="custom-control-input" [value]="false" [(ngModel)]="settingsService.sortDescending">
-        <label class="custom-control-label" for="sortDeseendingFalse">Ascending</label>
+        <label class="custom-control-label" for="sortDeseendingFalse">Newest First</label>
       </div>
     </fieldset>
     <hr/>
